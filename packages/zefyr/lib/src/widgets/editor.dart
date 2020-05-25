@@ -206,8 +206,7 @@ class _ZefyrEditorState extends State<ZefyrEditor> {
       data: _themeData,
       child: ZefyrScopeAccess(
         scope: _scope,
-        child: Directionality(
-            textDirection:TextDirection.rtl,child: editable),
+        child: editable,
       ),
     );
   }
